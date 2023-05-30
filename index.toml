@@ -1,0 +1,59 @@
+[[alacritty]]
+name = '.alacritty.yml'
+dest = '$HOME/.alacritty.yml'
+
+# [[bash]]
+# name = '.bash_profile'
+# dest = '$HOME/.bash_profile'
+
+# [[bash]]
+# name = '.bash_login'
+# dest = '$HOME/.bash_login'
+
+[[bash]]  # and sh, ksh, etc.
+name = '.profile'
+dest = '$HOME/.profile'
+
+[[bash]]
+name = '.bashrc'
+dest = '$HOME/.bashrc'
+
+# [[bash]]
+# name = '.bash_logout'
+# dest = '$HOME/.bash_logout'
+
+[[git]]
+name = '.gitconfig'
+dest = '$HOME/.gitconfig'
+
+[[share]]
+name = 'alias'
+dest = '$HOME/.share/alias'
+
+[[share]]
+name = 'env'
+dest = '$HOME/.share/env'
+
+[[yapf]]
+name = '.style.yapf'
+dest = '$HOME/.style.yapf'
+
+# [[zsh]]
+# name = '.zshenv'
+# dest = '$HOME/.zshenv'
+
+# [[zsh]]
+# name = '.zprofile'
+# dest = '$HOME/.zprofile'
+
+# [[zsh]]
+# name = '.zlogin'
+# dest = '$HOME/.zlogin'
+
+[[zsh]]
+name = '.zshrc'
+dest = '$HOME/.zshrc'
+
+# [[zsh]]
+# name = '.zlogout'
+# dest = '$HOME/.zlogout'
