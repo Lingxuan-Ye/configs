@@ -1,1 +1,2 @@
-alias prune="git reflog expire --expire=now --all && git gc --prune=now"
+alias blog='open "$HOME/blog/"; code "$HOME/blog/"'
+alias prune='git reflog expire --expire=now --all && git gc --prune=now'
