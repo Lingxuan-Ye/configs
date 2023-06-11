@@ -35,7 +35,7 @@ def main() -> None:
             # `to.is_symlink()` is for the symlink that points to
             # a non-existing directory or file
             if to.is_dir() or to.is_file() or to.is_symlink():
-                backup = Path('_backup') / category / config['name']
+                backup = Path('backup') / category / config['name']
                 backup.parent.mkdir(parents=True, exist_ok=True)
                 if backup.is_dir():
                     shutil.rmtree(backup)
