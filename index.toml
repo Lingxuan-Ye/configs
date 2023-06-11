@@ -1,59 +1,59 @@
-[[alacritty]]
-name = '.alacritty.yml'
-dest = '$HOME/.alacritty.yml'
-
-# [[bash]]
-# name = '.bash_profile'
-# dest = '$HOME/.bash_profile'
-
-# [[bash]]
-# name = '.bash_login'
-# dest = '$HOME/.bash_login'
-
-[[bash]]  # and sh, ksh, etc.
-name = '.profile'
-dest = '$HOME/.profile'
-
-[[bash]]
-name = '.bashrc'
-dest = '$HOME/.bashrc'
-
-# [[bash]]
-# name = '.bash_logout'
-# dest = '$HOME/.bash_logout'
-
-[[git]]
-name = '.gitconfig'
-dest = '$HOME/.gitconfig'
-
 [[share]]
 name = 'alias'
-dest = '$HOME/.share/alias'
+to = '~/.share/alias'
 
 [[share]]
 name = 'env'
-dest = '$HOME/.share/env'
+to = '~/.share/env'
+
+[[alacritty]]
+name = '.alacritty.yml'
+to = '~/.alacritty.yml'
+
+# [[bash]]
+# name = '.bash_profile'
+# to = '~/.bash_profile'
+
+# [[bash]]
+# name = '.bash_login'
+# to = '~/.bash_login'
+
+[[bash]]  # and sh, ksh, etc.
+name = '.profile'
+to = '~/.profile'
+
+[[bash]]
+name = '.bashrc'
+to = '~/.bashrc'
+
+# [[bash]]
+# name = '.bash_logout'
+# to = '~/.bash_logout'
+
+[[git]]
+name = '.gitconfig'
+to = '~/.gitconfig'
 
 [[yapf]]
 name = '.style.yapf'
-dest = '$HOME/.style.yapf'
+to = '~/.style.yapf'
 
 # [[zsh]]
 # name = '.zshenv'
-# dest = '$HOME/.zshenv'
+# to = '~/.zshenv'
 
 # [[zsh]]
 # name = '.zprofile'
-# dest = '$HOME/.zprofile'
+# to = '~/.zprofile'
 
 # [[zsh]]
 # name = '.zlogin'
-# dest = '$HOME/.zlogin'
+# to = '~/.zlogin'
 
 [[zsh]]
 name = '.zshrc'
-dest = '$HOME/.zshrc'
+to = '~/.zshrc'
 
 # [[zsh]]
 # name = '.zlogout'
-# dest = '$HOME/.zlogout'
+# to = '~/.zlogout'
