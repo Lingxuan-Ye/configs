@@ -19,4 +19,8 @@ fi
 # for Rust Cargo
 . "$HOME/.cargo/env"
 
+# activate default venv
+source $HOME/venv/ink/bin/activate
+
 export PATH
+export PYTHONPATH="$HOME/lib"

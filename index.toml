@@ -34,6 +34,10 @@ to = '~/.bashrc'
 name = '.gitconfig'
 to = '~/.gitconfig'
 
+[[pip]]
+name = 'pip.conf'
+to = '~/.config/pip/pip.conf'
+
 [[yapf]]
 name = '.style.yapf'
 to = '~/.style.yapf'
