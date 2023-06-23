@@ -44,8 +44,8 @@ def main() -> None:
                 to.rename(backup)
             elif to.exists():
                 raise UnsupportedPath(
-                    f'{to} is neither a directory nor a file, '
-                    f'nor a symbolic link pointing to them.'
+                    f"path '{to}' is neither a directory nor a file, "
+                    f"nor a symbolic link pointing to them."
                 )
 
             to.symlink_to(from_.resolve())
